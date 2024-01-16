@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+  }
+ 
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  main img{
+    width: 100px;
+    height: 100px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+ 
+  nav li {
+    margin-right: 20px;
+  }
+ 
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+ 
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+ 
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+  }
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Pilis.hu</h1>
+        </header>
+        <article>
+            <h2>Rám-szakadék</h2>
+            <p>A Dömös közigazgatási területén húzódó Rám-szakadék a Rám-hegy tömbjébe vágódó Három-forrás-völgy különösen szép, egyik leglátogatottabb és vadregényes része. A Dunántúli-középhegység legkeletibb része a Visegrádi-hegység, kb. 14-15 millió évvel ezelőtt, igen heves vulkáni tevékenység során keletkezett.
+                A hegy kőzeteire jellemzők a vulkáni eredetű andezit és andezittörmelékes breccsába (szögletes, éles <img src="kep01.jpg" alt="fa"> kőzettörmelék-darabokból összecementálódott kőzet) ágyazott kőtömbök, amikből a kőzet felszínre kerülése óta a felszíni vizek és a fagy munkájának eredményeképpen völgyek alakultak ki.
+                Az összegyűlt csapadékvizek mély völgyeket faragtak a hegyek oldalába. A szakadék a benne vezető turistaúton kellő óvatossággal végigjárható. A kirándulás közben a leglátványosabb földtani értékeket lehet megtekinteni. A szurdokban összességében 112 m-es szintkülönbséget kell leküzdeniük a túrázóknak. A szűk, meredek falakkal határolt szurdokvölgy (mely magassága eléri a 35 métert, szélessége pedig több helyen 3 méternél is kevesebb) bemutatja a különböző vulkáni rétegeket. A puha tufában magas, függőleges falak, a víznek ellenálló keményebb lávarétegeken pedig zúgók, vízesések alakultak ki. A szakadékon keresztülfolyó Rám-patak végül a Szőke-forrás völgyében a Malom-patakba folyik.
+            </p>
+            <h3>Holdvilág-árok</h3>
+            <p><img src="kep02.jpg" alt="fa2">A Duna-Ipoly Nemzeti Park területén található az 556 méteres Nagy Csikóvár. Ennek déli lejtőjén kis tavacskák, úgynevezett „Tólakok” vannak jégkorszakból visszamaradt növényritkaságokkal, itt húzódik a Holdvilág-árok. Kiskovácsi vagy Lajosforrás felől gyalogosan megközelíthető. Látogatása nedves időben a csúszásveszély miatt nem javasolható, mivel nehéz és sokszor nem veszélytelen mászás után közelíthető csak meg. Közvetlenül az úgynevezett Meteor-létrán lehet leereszkedni az árokba, bár némi kerülővel egy meredek lépcsőn is elérhető. Az 1980-as években az árokból kivezető megáradt patak elsodort egy főleg iskolásokból álló csoportot valamint az átvezető fahidakat, ezeket azóta sem pótolták.
+                A Holdvilág-árok három ággal indul (ide értve a külön névvel illetett, legjelentősebb mellékágat is: a Karolina-árkot) Pomáz közigazgatási területén. Keleti ága a Nagy Csikóvár és a Pörgelóci-hegy közé mélyül, középső ága a Pörgelóci-hegy és a Lom-hegy között van, amely ágak a Weislich-barlangtól 150 méterrel északkeletre egyesülnek (346 m-es szinten), majd a két részből egyesült árok délnyugat felé folytatódik a Domini-forrásig, ahol a harmadik ág, a Karolina-árok is beletorkollik. A Karolina-árok a Klanác-hegy felől tart a főárokba. A Domini-forrástól a többnyire patakos völgy szurdokszerűen vezet Kiskovácsi településig, majd innen lankás partok között Csobánka-Margitligetnél torkollik a Dera-patakba.
+            </p>
+        </article>
+        <nav>
+            <h3>Menü</h3>
+            <li><a href="">Menüpont1</a></li>
+            <li><a href="">Menüpont2</a></li>
+            <li><a href="">Menüpont3</a></li>
+            <li><a href="">Menüpont4</a></li>
+            <h3>Letöltések</h3>
+            <li><a href="">Menüpont1</a></li>
+            <li><a href="">Menüpont2</a></li>
+            <li><a href="">Menüpont3</a></li>
+            <li><a href="">Menüpont4</a></li>
+            <h3>Ajánlott linkek</h3>
+            <li><a href="">Menüpont1</a></li>
+            <li><a href="">Menüpont2</a></li>
+            <li><a href="">Menüpont3</a></li>
+            <li><a href="">Menüpont4</a></li>
+        </nav>
+        <footer>
+
+        </footer>
+    </main>
+    
+</body>
+</html>
